@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Space between allows me to align each item
+  at their respective beginning/end areas of the container. */
+  justify-content: space-between;
+}
+
+.my-item {
+  border: 1px solid #444;
+  width: 440px;
+}
